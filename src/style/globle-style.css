@@ -1,0 +1,10 @@
+/*报表页面 button 居右，右边距 5px*/
+.place-right {
+  padding-right: 8px;
+  display: flex;
+  justify-content: flex-end;
+}
+/*内边距8px*/
+.basic-padding {
+  padding: 8px !important;
+}

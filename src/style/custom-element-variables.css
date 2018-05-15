@@ -1,0 +1,34 @@
+/* 覆盖 element-ui 样子 */
+
+/* component: el-collapse*/
+.el-collapse-item {
+  border-left: 1px solid #ebeef5;
+  border-right: 1px solid #ebeef5;
+}
+.el-collapse-item >div {
+  padding: 0 8px;
+}
+.el-collapse-item__content {
+  padding-bottom: 8px;
+}
+.el-collapse-item__header {
+  font-weight: normal;
+}
+
+/* component: el-input*/
+.el-input__inner {
+  border-radius: 0
+}
+
+/* component: el-button*/
+.el-button {
+  border-radius: 0
+}
+
+/* component: el-table*/
+.el-table .cell {
+  line-height: 27px;
+}
+.el-table--mini td, .el-table--mini th {
+  padding: 0;
+}
